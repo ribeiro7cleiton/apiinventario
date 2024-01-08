@@ -14,6 +14,6 @@ svc.on('install',function(){
 });
 
 svc.logOnAs.domain = 'SOPASTA';
-svc.logOnAs.account = 'ADMINISTRADOR';
-svc.logOnAs.password = 'MKq!96fc@Ws';
+svc.logOnAs.account = 'DOMINIO';
+svc.logOnAs.password = 'SENHA';
 svc.install();
