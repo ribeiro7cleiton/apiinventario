@@ -1,11 +1,11 @@
 const knex = require('knex')({
     client: 'oracledb',
     connection: {
-      host : '192.168.3.8',
+      host : '192.168.1.1',
       port : 1521,
-      user : 'cosapiens',
-      password : 'cosapiens',
-      database : 'oraprd'
+      user : 'USER',
+      password : 'PASWORD',
+      database : 'DATABASE'
     }
   });
   
